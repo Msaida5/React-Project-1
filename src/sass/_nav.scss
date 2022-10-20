@@ -1,0 +1,35 @@
+//  
+
+
+.nav_menu {
+  
+    position: fixed;
+    top: 0;
+
+    background-color: #000;
+    z-index: 5;
+    margin: 0;
+
+    ul {
+        margin-left: 80px;
+        li {
+            .page_title {
+                font-family: "DM Sans", sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                color: #525260 !important;
+
+            }
+        }
+
+    }
+
+    #logo {
+
+        margin-right: 110px;
+        margin-left: 100px;
+    }
+
+}
+
+

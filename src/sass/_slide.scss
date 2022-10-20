@@ -1,0 +1,82 @@
+.slide {
+    margin-top: 150px;
+
+    .slide_left {
+        h5 {
+            font-size: 20px;
+            font-family: "DM Sans", sans-serif;
+            font-weight: 500;
+            color: #c75c6f;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 54px;
+            font-family: "DM Sans", sans-serif;
+            color: #292930;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 18px;
+            font-family: "Poppins", sans-serif;
+            color: #525260;
+            padding-right: 30px;
+            margin-bottom: 30px;
+        }
+
+
+        #slide_btn {
+            width: 240px;
+            height: 72px;
+            border-radius: 15px;
+            background-color: #5956e9;
+            border: 0;
+            color: #fff;
+            font-weight: 600;
+            font-size: 16px;
+            font-family: "Poppins", sans-serif;
+            transition: 1s;
+            margin-bottom: 60px;
+
+            &:hover {
+                background-color: #034ab5;
+                ;
+            }
+
+        }
+
+
+        #miks {
+            padding-right: 60px;
+            margin-right: 60px;
+            border-right: 1px solid #C7C7D5;
+        }
+
+        #number {
+            font-size: 56px;
+            font-family: "DM Sans", sans-serif;
+            font-weight: 500;
+            color: #c75c6f;
+
+        }
+        #write{
+            font-size: 16px;
+            font-family: "Poppins", sans-serif;
+            color: #525260;
+        }
+    }
+
+}
+
+
+#buttons{
+    
+   button{
+    width: 11px;
+    height: 11px;
+    border-radius:50%;
+
+    background-color: #dbdeff;
+   }
+}

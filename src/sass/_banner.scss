@@ -1,0 +1,71 @@
+.banner {
+    margin-top: 270px;
+
+    .banner_left {
+        text-align: start;
+
+        h1 {
+            font-size: 68px;
+            font-weight: 600;
+            font-family: "DM Sans", sans-serif;
+        }
+
+        p {
+            font-size: 18px;
+            font-family: "Poppins", sans-serif;
+            color: #525260;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        button {
+            width: 176px;
+            height: 82px;
+            border-radius: 15px;
+            background-color: #5956e9;
+            border: 0;
+            color: #fff;
+            font-weight: 600;
+            font-family: "Poppins", sans-serif;
+            transition: 1s;
+            box-shadow: 0 44px 84px -24px #5956e9;
+
+            &:hover {
+                background-color: #034ab5;
+                ;
+            }
+        }
+    }
+
+    .banner_right {
+        position: relative;
+
+        #chat_back {
+            width: 378px;
+            height: 378px;
+            position: absolute;
+            top: -120px;
+            right: -50px;
+            background-image: url('../img/others/bubble-38.png');
+            z-index: 0;
+           
+
+        }
+
+        #banner_window {
+            position: absolute;
+            left: -50px;
+            top: 25px;
+            z-index: 2;
+        }
+
+        #laptop-poses {
+            position: absolute;
+            z-index: 3;
+            bottom: -200px;
+            left: 85px;
+        }
+    }
+
+
+}

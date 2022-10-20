@@ -1,0 +1,66 @@
+body.light {
+    color: #000;
+}
+
+body.dark {
+    color: #d3d3d4 !important;
+    background-color: #212121;
+    .nav_menu {
+        ul {
+            li {
+                .page_title {
+                    color: #767678 !important;
+                }
+            }
+        }
+    }
+   
+    #banner_text{
+        color: #d3d3d4 !important;
+    }
+
+    #chat_back {
+        background-image: none !important;
+        border-radius: 50%;
+        background-color: #42434c;
+    }
+
+
+    .slide {
+        .slide_left {
+            h1 {
+                color: #d3d3d4 !important;
+            }
+
+            p {
+                color: #d3d3d4 !important;
+            }
+
+            #write {
+                color: #d3d3d4 !important;
+            }
+        }
+    }
+
+}
+
+
+
+.mode_btn {
+    position: fixed;
+    top: 200px;
+    width: 60px;
+    height: 60px;
+    border-top-right-radius: 50% !important;
+    border-bottom-right-radius: 50% !important;
+    background-color: #5956E9 !important;
+    background-image: url('../img/icon/moon-fill.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mode_btn_dark {
+    background-image: url('../img/icon/brightness-high.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}

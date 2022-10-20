@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+.nav_menu {
+  position: fixed;
+  top: 0;
+  background-color: #000;
+  z-index: 5;
+  margin: 0;
+}
+.nav_menu ul {
+  margin-left: 80px;
+}
+.cl:hover {
+  color: #b50303;
+}
+.nav_menu ul li .page_title {
+  font-family: 'Brush Script MT, Brush Script Std, cursive';
+  font-size: 16px;
+  font-weight: 500;
+  color: #525260 !important;
+}
+.nav_menu #logo {
+  margin-right: 110px;
+  margin-left: 100px;
+}
+.nav_menu #canva_btn {
+  width: 60px;
+  height: 60px;
+  transition: 1s;
+  margin-left: 30px;
+}
+.nav_menu #canva_btn:hover {
+  transform: rotate(180deg);
+}
+.banner {
+  margin-top: 270px;
+}
+.banner .banner_left {
+  text-align: start;
+}
+.banner .banner_left h1 {
+  font-size: 68px;
+  font-weight: 600;
+  font-family: "DM Sans", sans-serif;
+}
+.banner .banner_left p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #525260;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.banner .banner_left button {
+  width: 176px;
+  height: 82px;
+  border-radius: 15px;
+  background-color: #5956e9;
+  border: 0;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  transition: 1s;
+  box-shadow: 0 44px 84px -24px #ff2b2b;
+}
+.banner .banner_left button:hover {
+  background-color: #b50303;
+}
+.banner .banner_right {
+  position: relative;
+}
+.banner .banner_right #chat_back {
+  width: 378px;
+  height: 378px;
+  position: absolute;
+  top: -120px;
+  right: -50px;
+  background-image: url("../img/others/bubble-38.png");
+  z-index: 0;
+}
+.banner .banner_right #banner_window {
+  position: absolute;
+  left: -50px;
+  top: 25px;
+  z-index: 2;
+}
+.banner .banner_right #laptop-poses {
+  position: absolute;
+  z-index: 3;
+  bottom: -200px;
+  left: 85px;
+}
+
+.services {
+  background-color: #27272e;
+  margin-top: 200px;
+}
+.services #services_text {
+  padding-top: 150px;
+  position: relative;
+}
+.services #services_text #line {
+  position: absolute;
+  top: 100px;
+  right: -90px;
+}
+.services #services_text h5 {
+  color: #c75c6f;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.services #services_text h1 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-size: 56px;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+.services #services_text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #525260;
+}
+
+#services_card {
+  width: 410px;
+  height: 335px;
+  transition: 0.5s;
+}
+#services_card:hover {
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 100px -28px rgba(74, 75, 86, 0.7215686275);
+}
+#services_card:hover #text {
+  color: #fff !important;
+}
+#services_card:hover #find {
+  color: #fab8c4 !important;
+}
+#services_card:hover #xet {
+  background-color: #b50303;
+}
+#services_card #info h5 {
+  font-size: 24px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#services_card #info h5:hover {
+  color: #b50303 !important;
+}
+#services_card #info p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #525260 !important;
+}
+#services_card #info h6 {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 35px;
+}
+#services_card #info h6 span {
+  display: inline-block;
+  width: 30px;
+  height: 1px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+body.light {
+  color: #000;
+}
+
+body.dark {
+  color: #d3d3d4 !important;
+  background-color: #212121;
+}
+body.dark .nav_menu ul li .page_title {
+  color: #767678 !important;
+}
+body.dark #canva_btn {
+  background-color: #42434c;
+  border: none;
+  color: #eee;
+}
+body.dark #canva_header {
+  background-color: #27272e;
+}
+body.dark #canva_header button {
+  border-radius: 50%;
+  background-color: #fff;
+}
+body.dark #canva_body {
+  background-color: #27272e;
+}
+body.dark #canva_body #canva_menu ul li a {
+  color: #d3d3d4;
+}
+body.dark #canva_body #canva_menu h5 {
+  color: #d3d3d4 !important;
+}
+body.dark #canva_body #canva_menu p {
+  color: #d3d3d4 !important;
+}
+body.dark #canva_body #canva_menu span {
+  color: #d3d3d4 !important;
+}
+body.dark #banner_text {
+  color: #d3d3d4 !important;
+}
+body.dark #chat_back {
+  background-image: none !important;
+  border-radius: 50%;
+  background-color: #42434c;
+}
+body.dark .slide .slide_left h1 {
+  color: #d3d3d4 !important;
+}
+body.dark .slide .slide_left p {
+  color: #d3d3d4 !important;
+}
+body.dark .slide .slide_left #write {
+  color: #d3d3d4 !important;
+}
+
+.mode_btn {
+  position: fixed;
+  top: 200px;
+  width: 60px;
+  height: 60px;
+  border-top-right-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+  background-color: #5956E9 !important;
+  background-image: url("../img/icon/moon-fill.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mode_btn_dark {
+  background-image: url("../img/icon/brightness-high.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide {
+  margin-top: 150px;
+}
+.slide .slide_left h5 {
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: #c75c6f;
+  margin-bottom: 30px;
+}
+.slide .slide_left h1 {
+  font-size: 54px;
+  font-family: "DM Sans", sans-serif;
+  color: #292930;
+  margin-bottom: 30px;
+}
+.slide .slide_left p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #525260;
+  padding-right: 30px;
+  margin-bottom: 30px;
+}
+.slide .slide_left #slide_btn {
+  width: 240px;
+  height: 72px;
+  border-radius: 15px;
+  background-color: #b50303;
+  border: 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  transition: 1s;
+  margin-bottom: 60px;
+}
+.slide .slide_left #slide_btn:hover {
+  background-color: #034ab5;
+}
+.slide .slide_left #miks {
+  padding-right: 60px;
+  margin-right: 60px;
+  border-right: 1px solid #C7C7D5;
+}
+.slide .slide_left #number {
+  font-size: 56px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: #af0020;
+}
+.slide .slide_left #write {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #525260;
+}
+
+#buttons button {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color:#b50303;
+}/*# sourceMappingURL=style.css.map */
+
+.dv{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.formdiv{
+  background-color: white;
+  width: 80vh;
+  height: 600px;
+  border-radius: 30px;
+  padding: 50px;
+}
+#formh3{
+  font-size: 32px;
+  font-family: var(--font-primary);
+  letter-spacing: -0.025em;
+  color: var(--color-text-dark);
+  margin: 0 0 30px 0;
+}
+
+/* CSS */
+.button-65 {
+  margin-top: 20px;
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #2f80ed;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 14px 30px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  touch-action: manipulation;
+  vertical-align: top;
+ 
+  
+}
+
+.button-65:hover {
+  background-color: #1366d6;
+  box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+ 
+}
+
+.button-65:hover:after {
+  opacity: .5;
+}
+
+.button-65:active {
+  box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-65:active:after {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .button-65 {
+    padding: 14px 22px;
+    width: 459px;
+  }
+}
